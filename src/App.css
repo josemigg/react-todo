@@ -1,0 +1,57 @@
+.app {
+  max-width: 600px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 48px;
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 24px;
+}
+
+.add {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.add-input-group {
+  flex-grow: 1;
+}
+
+.add-input {
+  height: 40px;
+  width: 100%;
+}
+
+.task {
+  width: 100%;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.task + .task {
+  margin-top: 24px;
+}
+
+.error {
+  color: red;
+}
+
+.completed {
+  text-decoration: line-through;
+}
